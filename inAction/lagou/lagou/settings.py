@@ -93,4 +93,3 @@ MYSQL_USER="root"
 MYSQL_PASSWD="root"
 MYSQL_DB="lagoudb"
 
-REDIRECT_ENABLED = False

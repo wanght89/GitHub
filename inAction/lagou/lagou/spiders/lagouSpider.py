@@ -19,6 +19,7 @@ class LagouspiderSpider(CrawlSpider):
     def parse_item(self, response):
         i = LagouItem()
         url=response.url
+        print(url)
         i["job_id"]
         i["title"]=response.xpath('//div[@class="position-content"]/div/div[@class="job-name"]/@title')
         i["url"]=response.url
